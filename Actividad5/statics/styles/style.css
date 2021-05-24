@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+
+/*=KIKI DISCO
+-------------------------------------------------------------------------*/
+#titulo{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*=BOTON DE JUGAR
+-------------------------------------------------------------------------*/
+#jugar{
+    text-align: center;
+}
+
+input{
+    width: 7%;
+    height: 2em;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    background-color: darkorange;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
+/*=BOTONES DE COLORES
+-------------------------------------------------------------------------*/
+
+#botones{
+    position: absolute;
+    left: 40%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    border: 10px solid #C0C0C0;
+    padding: 0;
+    width: 20%;
+    height: 40%;
+}
+
+.color{
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    height: 50%;  
+}
+
+#amarillo{
+    position: absolute;
+    background-color: gold;
+}
+
+#amarillo:hover{
+    background-color: yellow;
+    cursor: pointer
+}
+
+#verde{
+    position: absolute;
+    left: 50%;
+    background-color:green;
+}
+
+#verde:hover{
+    background-color:limegreen;
+    cursor: pointer
+}
+
+#azul{
+    position: absolute;
+    top: 50%;
+    background-color: blue;
+}
+
+#azul:hover{
+    background-color: cyan;
+    cursor: pointer
+}
+
+#rojo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color:red;
+}
+
+#rojo:hover{
+    background-color: coral;
+    cursor: pointer
+}
+
