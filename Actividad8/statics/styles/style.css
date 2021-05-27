@@ -1,0 +1,34 @@
+body{
+    background-color: gold;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+label, h1{
+    font-family: sans-serif;
+}
+body > div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    height: 410px;
+    margin: 0;
+    text-align: start;
+}
+canvas{
+    border: 5px solid dodgerblue;
+    background-color: white;
+}
+canvas:hover{
+    cursor: pointer;
+}
+#opciones{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100%;
+    width: 250px;
+    background-color: orangered;
+}

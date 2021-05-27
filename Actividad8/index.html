@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/styles/style.css">
+    <script src="./dynamics/js/index.js"></script>
+    <title>DibujaDibujos3000</title>
+</head>
+<body>
+    <h1>Dibuja dibujos 3000</h1>
+    <div>
+        <canvas id="dibus" width="400" height="400"></canvas>
+        <div id="opciones">
+            <div id="inputColores">
+                <label for="color"><strong>Color de fondo</strong>
+                    <input type="color" name="colores" id="color">
+                </label>
+                <br>
+            </div>
+            <br>
+            <label for="tipo"><strong>Tipo de color de fondo</strong></label>
+            <br><br>
+            <select name="tipos" id="tipo">
+                <option value="solido">Sólido</option>
+                <option value="degradado">Degradado lineal</option>
+                <option value="degradado">Degradado radial</option>
+            </select>
+            <br><br>
+            <label for="figura"><strong>Figura</strong></label>
+            <br><br>
+            <select name="figuras" id="figura">
+                <option value="paleta">Paleta</option>
+                <option value="corona">Corona</option>
+                <option value="fantas">Fantasma</option>
+            </select>
+        </div>
+    </div>
+    
+</body>
+</html>
